@@ -4,8 +4,35 @@
         My first web page
     </title>
     <h1>Hello! My name is Shrestha Saimonai</h1>
+    <h2>My Interests</h2>
+<ul>
+  <li>Problem Solving and Logical Thinking</li>
+  <li>Business and Entrepreneurship</li>
+  <li>Sports and Physical Fitness</li>
+</ul>
+
+<h2>Technologies</h2>
+<ul>
+  <li>Java Programming</li>
+  <li>Database Management</li>
+  <li>Web Development Tools</li>
+</ul>
+
+<h2>My Daily Routine</h2>
+<ul>
+  <li>Attend Classes and Complete Assignments</li>
+  <li>Practice Technical Skills and Review Lessons</li>
+  <li>Spend Time on Fitness and Personal Development</li>
+</ul>
+
+<h2>My Top 3 Goals</h2>
+<ol>
+  <li>Master Essential Computer Engineering Skills</li>
+  <li>Gain Experience Through Practical Projects</li>
+  <li>Prepare for a Successful Technology Career</li>
+</ol>
     <body>
-        <p>I am from Nepal. I am studying Computer Science at Seoul Theological University.</p>
+        <p>I am from Nepal. I am studying Computer Science at Seoul Theological University.</p><p>Visit my university: <a href="https://www.stu.ac.kr" target="_blank">Seoul Theological University</a></p>
         <p>I enjoy learning coding</p>
 
         <h2>My Favorite Photo</h2>
@@ -13,5 +40,32 @@
 
         <h2>About My Hometown</h2>
         <p>I grew up in Nawalparasi, Nepal. Nepal ia a beautiful and culturally diverse country known around the world for the beautiful Landscape, Himalayas and Mount Everest.</p>
+        <!-- Top navigation link -->
+<p><a href="#guestbook">Jump to Guestbook Section ↓</a></p>
+
+<!-- Destination section further down the page -->
+<h2 id="guestbook">Guestbook</h2>
     </body>
 </html>
+  <hr>
+  <h2 id="guestbook">Leave a Message (Guestbook)</h2>
+  <form>
+    <p>
+      <label for="visitor-name">Your Name:</label><br>
+      <input type="text" id="visitor-name" name="visitor-name" placeholder="e.g.,Shrestha Saimonai " required>
+    </p>
+
+    <p>
+      <label for="visitor-email">Your Email:</label><br>
+      <input type="email" id="visitor-email" name="visitor-email" placeholder="name@example.com" required>
+    </p>
+
+    <p>
+      <label for="visitor-message">Your Message:</label><br>
+      <textarea id="visitor-message" name="visitor-message" rows="4" cols="45" placeholder="Share your greeting, feedback, or thoughts..."></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Submit Message</button>
+    </p>
+  </form>
